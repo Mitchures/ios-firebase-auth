@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260A6D29245A6C8100D728A5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260A6D28245A6C8100D728A5 /* Constants.swift */; };
 		260ACB16245942C200C3F401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACB15245942C200C3F401 /* AppDelegate.swift */; };
 		260ACB18245942C200C3F401 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACB17245942C200C3F401 /* SceneDelegate.swift */; };
 		260ACB1A245942C200C3F401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACB19245942C200C3F401 /* ViewController.swift */; };
 		260ACB1D245942C200C3F401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260ACB1B245942C200C3F401 /* Main.storyboard */; };
 		260ACB1F245942C200C3F401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260ACB1E245942C200C3F401 /* Assets.xcassets */; };
 		260ACB22245942C200C3F401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260ACB20245942C200C3F401 /* LaunchScreen.storyboard */; };
+		260ACB2A2459432F00C3F401 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACB292459432F00C3F401 /* SignUpViewController.swift */; };
+		260ACB2C2459433900C3F401 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACB2B2459433900C3F401 /* LoginViewController.swift */; };
+		260ACB2E2459434400C3F401 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACB2D2459434400C3F401 /* HomeViewController.swift */; };
+		260ACB31245A406000C3F401 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 260ACB30245A406000C3F401 /* GoogleService-Info.plist */; };
+		26B0E62F245A625C002FA850 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0E62E245A625C002FA850 /* Utilities.swift */; };
+		C169210CE229E47C80C92E21 /* Pods_CustomFirebaseAuthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201FB877C4AA467D8A03929F /* Pods_CustomFirebaseAuthDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		201FB877C4AA467D8A03929F /* Pods_CustomFirebaseAuthDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomFirebaseAuthDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260A6D28245A6C8100D728A5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		260ACB12245942C200C3F401 /* CustomFirebaseAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFirebaseAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		260ACB15245942C200C3F401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		260ACB17245942C200C3F401 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		260ACB1E245942C200C3F401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		260ACB21245942C200C3F401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260ACB23245942C200C3F401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260ACB292459432F00C3F401 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		260ACB2B2459433900C3F401 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		260ACB2D2459434400C3F401 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		260ACB30245A406000C3F401 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26B0E62E245A625C002FA850 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A3CF6D65284A7EADE534647C /* Pods-CustomFirebaseAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFirebaseAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-CustomFirebaseAuthDemo/Pods-CustomFirebaseAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D754E51EF6230B77C9A4EA7A /* Pods-CustomFirebaseAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFirebaseAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-CustomFirebaseAuthDemo/Pods-CustomFirebaseAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C169210CE229E47C80C92E21 /* Pods_CustomFirebaseAuthDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				260ACB14245942C200C3F401 /* CustomFirebaseAuthDemo */,
 				260ACB13245942C200C3F401 /* Products */,
+				4C2646FF701C80DC8A3C640B /* Pods */,
+				DCDF2C356E01A9096E67732C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,54 @@
 		260ACB14245942C200C3F401 /* CustomFirebaseAuthDemo */ = {
 			isa = PBXGroup;
 			children = (
+				26B0E62D245A617A002FA850 /* Helpers */,
+				260ACB2F2459434B00C3F401 /* View Controllers */,
 				260ACB15245942C200C3F401 /* AppDelegate.swift */,
 				260ACB17245942C200C3F401 /* SceneDelegate.swift */,
-				260ACB19245942C200C3F401 /* ViewController.swift */,
 				260ACB1B245942C200C3F401 /* Main.storyboard */,
 				260ACB1E245942C200C3F401 /* Assets.xcassets */,
 				260ACB20245942C200C3F401 /* LaunchScreen.storyboard */,
 				260ACB23245942C200C3F401 /* Info.plist */,
+				260ACB30245A406000C3F401 /* GoogleService-Info.plist */,
 			);
 			path = CustomFirebaseAuthDemo;
+			sourceTree = "<group>";
+		};
+		260ACB2F2459434B00C3F401 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				260ACB19245942C200C3F401 /* ViewController.swift */,
+				260ACB292459432F00C3F401 /* SignUpViewController.swift */,
+				260ACB2B2459433900C3F401 /* LoginViewController.swift */,
+				260ACB2D2459434400C3F401 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		26B0E62D245A617A002FA850 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				26B0E62E245A625C002FA850 /* Utilities.swift */,
+				260A6D28245A6C8100D728A5 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4C2646FF701C80DC8A3C640B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3CF6D65284A7EADE534647C /* Pods-CustomFirebaseAuthDemo.debug.xcconfig */,
+				D754E51EF6230B77C9A4EA7A /* Pods-CustomFirebaseAuthDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCDF2C356E01A9096E67732C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201FB877C4AA467D8A03929F /* Pods_CustomFirebaseAuthDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 260ACB26245942C200C3F401 /* Build configuration list for PBXNativeTarget "CustomFirebaseAuthDemo" */;
 			buildPhases = (
+				905CEF492FD189370F5D834B /* [CP] Check Pods Manifest.lock */,
 				260ACB0E245942C200C3F401 /* Sources */,
 				260ACB0F245942C200C3F401 /* Frameworks */,
 				260ACB10245942C200C3F401 /* Resources */,
+				08DE3D7CAFB5DB8F6DEECF4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +186,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				260ACB22245942C200C3F401 /* LaunchScreen.storyboard in Resources */,
+				260ACB31245A406000C3F401 /* GoogleService-Info.plist in Resources */,
 				260ACB1F245942C200C3F401 /* Assets.xcassets in Resources */,
 				260ACB1D245942C200C3F401 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08DE3D7CAFB5DB8F6DEECF4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomFirebaseAuthDemo/Pods-CustomFirebaseAuthDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomFirebaseAuthDemo/Pods-CustomFirebaseAuthDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomFirebaseAuthDemo/Pods-CustomFirebaseAuthDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		905CEF492FD189370F5D834B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomFirebaseAuthDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		260ACB0E245942C200C3F401 /* Sources */ = {
@@ -140,7 +243,12 @@
 			files = (
 				260ACB1A245942C200C3F401 /* ViewController.swift in Sources */,
 				260ACB16245942C200C3F401 /* AppDelegate.swift in Sources */,
+				26B0E62F245A625C002FA850 /* Utilities.swift in Sources */,
+				260ACB2A2459432F00C3F401 /* SignUpViewController.swift in Sources */,
+				260ACB2C2459433900C3F401 /* LoginViewController.swift in Sources */,
 				260ACB18245942C200C3F401 /* SceneDelegate.swift in Sources */,
+				260ACB2E2459434400C3F401 /* HomeViewController.swift in Sources */,
+				260A6D29245A6C8100D728A5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		260ACB27245942C200C3F401 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CF6D65284A7EADE534647C /* Pods-CustomFirebaseAuthDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +408,7 @@
 		};
 		260ACB28245942C200C3F401 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D754E51EF6230B77C9A4EA7A /* Pods-CustomFirebaseAuthDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
