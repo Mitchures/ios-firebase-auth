@@ -19,6 +19,7 @@
 		260ACB2E2459434400C3F401 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260ACB2D2459434400C3F401 /* HomeViewController.swift */; };
 		260ACB31245A406000C3F401 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 260ACB30245A406000C3F401 /* GoogleService-Info.plist */; };
 		26B0E62F245A625C002FA850 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0E62E245A625C002FA850 /* Utilities.swift */; };
+		26D9871B245CA2C100049899 /* tokyoVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 26D9871A245CA2C100049899 /* tokyoVideo.mov */; };
 		C169210CE229E47C80C92E21 /* Pods_CustomFirebaseAuthDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201FB877C4AA467D8A03929F /* Pods_CustomFirebaseAuthDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		260ACB2D2459434400C3F401 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		260ACB30245A406000C3F401 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		26B0E62E245A625C002FA850 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		26D9871A245CA2C100049899 /* tokyoVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tokyoVideo.mov; sourceTree = "<group>"; };
 		A3CF6D65284A7EADE534647C /* Pods-CustomFirebaseAuthDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFirebaseAuthDemo.debug.xcconfig"; path = "Target Support Files/Pods-CustomFirebaseAuthDemo/Pods-CustomFirebaseAuthDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D754E51EF6230B77C9A4EA7A /* Pods-CustomFirebaseAuthDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFirebaseAuthDemo.release.xcconfig"; path = "Target Support Files/Pods-CustomFirebaseAuthDemo/Pods-CustomFirebaseAuthDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 		260ACB14245942C200C3F401 /* CustomFirebaseAuthDemo */ = {
 			isa = PBXGroup;
 			children = (
+				26D98719245CA2B400049899 /* Media */,
 				26B0E62D245A617A002FA850 /* Helpers */,
 				260ACB2F2459434B00C3F401 /* View Controllers */,
 				260ACB15245942C200C3F401 /* AppDelegate.swift */,
@@ -106,6 +109,14 @@
 				260A6D28245A6C8100D728A5 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		26D98719245CA2B400049899 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				26D9871A245CA2C100049899 /* tokyoVideo.mov */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 		4C2646FF701C80DC8A3C640B /* Pods */ = {
@@ -186,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				260ACB22245942C200C3F401 /* LaunchScreen.storyboard in Resources */,
+				26D9871B245CA2C100049899 /* tokyoVideo.mov in Resources */,
 				260ACB31245A406000C3F401 /* GoogleService-Info.plist in Resources */,
 				260ACB1F245942C200C3F401 /* Assets.xcassets in Resources */,
 				260ACB1D245942C200C3F401 /* Main.storyboard in Resources */,
